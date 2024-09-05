@@ -1,0 +1,62 @@
+/* Gaya untuk kotak teks cinta */
+.love-box {
+  width: 80%;
+  max-width: 600px; /* Membatasi lebar maksimum kotak teks */
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffe6e6; /* Background lembut */
+  border: 2px solid #f58a8a; /* Border merah muda */
+  border-radius: 15px; /* Sudut membulat */
+  box-shadow: 0 4px 8px rgba(255, 105, 180, 0.2); /* Bayangan lembut */
+  text-align: center; /* Pusatkan teks */
+}
+
+/* Gaya untuk teks cinta */
+.love-text {
+  font-family: 'Dancing Script', cursive; /* Font elegan dan romantis */
+  font-size: 24px; /* Ukuran font besar */
+  color: #ff0000; /* Warna merah */
+  line-height: 1.5; /* Jarak antar baris */
+  margin: 0; /* Menghapus margin default */
+}
+
+/* Container untuk gambar */
+.box-image {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Membolehkan gambar membungkus jika tidak cukup ruang */
+  background-color: #fbe8e7; /* Background warna lembut */
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #f58a8a; /* Border berwarna merah muda */
+}
+
+/* Gaya untuk gambar */
+.box-image img {
+  width: 20%; /* Ukuran gambar */
+  height: auto; /* Menjaga rasio aspek gambar */
+  object-fit: cover; /* Mengisi ruang tanpa distorsi */
+  border-radius: 15px;
+  border: 2px solid #f58a8a; /* Border berwarna merah muda */
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+/* Efek hover untuk gambar */
+.box-image img:hover {
+  width: 25%; /* Membesar gambar sedikit */
+  transform: scale(1.1); /* Efek zoom saat hover */
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.5); /* Bayangan lembut dengan warna pink */
+}
+
+/* Tambahan gaya untuk font atau elemen lain jika diperlukan */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff4f4; /* Background halaman dengan warna lembut */
+  color: #333; /* Warna teks standar */
+}
+
+/* Link ke Google Fonts untuk font Dancing Script */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap') ;
